@@ -18,7 +18,7 @@ The sampler parameter used was a random parameter sampler. This sampler allows t
 In machine learning, early stopping is a form of regularization used to avoid overfitting when training a learner with an iterative method. Early stopping rules provide guidance as to how many iterations can be run before the learner begins to over-fit.
 
 ## AutoML
-The winner AutoMl model was a voting ensemble of the following algoritms: ensembled_algorithms": "['LightGBM', 'XGBoostClassifier', 'XGBoostClassifier', 'XGBoostClassifier', 'RandomForest']" with the following weights: "ensemble_weights": "[0.3333333333333333, 0.13333333333333333, 0.26666666666666666, 0.2, 0.06666666666666667]". We used AUC weighted as the primary metric of the model. 
+The winner AutoMl model was a voting ensemble of the following algoritms: ensembled_algorithms": "['LightGBM', 'XGBoostClassifier', 'XGBoostClassifier', 'XGBoostClassifier', 'RandomForest']".  We used AUC weighted as the primary metric of the model. 
 
 In this winning pipeline the AutoMl reached a precision score of 0.914 and an AUC weighted of 0.948. Below a list of the main parameters of the winning AutoMl pipeline.
 
